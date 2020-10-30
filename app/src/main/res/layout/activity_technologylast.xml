@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TechnologyLast"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#66FF">
+
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Question"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:text="answer1"
+        android:textSize="22sp"
+        android:layout_marginTop="80dp"
+        android:onClick="checkAnswer"
+        android:background="#FFF"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:text="answer2"
+        android:textSize="22sp"
+        android:layout_marginTop="22dp"
+        android:onClick="checkAnswer"
+        android:background="#FFF"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="22dp"
+        android:text="answer3"
+        android:textSize="22sp"
+        android:onClick="checkAnswer"
+        android:background="#FFF"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="22dp"
+        android:text="answer4"
+        android:textSize="22sp"
+        android:onClick="checkAnswer"
+        android:background="#FFF"/>
+
+</LinearLayout>
+

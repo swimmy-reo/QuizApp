@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Title2Activity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#66FF99">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5文字FEへようこそ"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/basicTheory"
+        android:layout_width="304sp"
+        android:layout_height="wrap_content"
+        android:text="基礎理論編"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:background="@drawable/button_background" />
+
+    <Button
+        android:id="@+id/computerSystem"
+        android:layout_width="304sp"
+        android:layout_height="wrap_content"
+        android:text="コンピュータシステム"
+        android:background="@drawable/button_background"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/technology1"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="技術要素:前編"
+        android:textSize="15sp"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/technology2"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="技術要素：後編"
+        android:textSize="15sp"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/beforeButton"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:text="◀\n前へ"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/button_background"/>
+
+
+
+</LinearLayout>

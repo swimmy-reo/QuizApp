@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="_333">トータルスコア:333</string>
+    <string name="_3_5">3 / 5</string>
+    <string name="結果">結果</string>
+    <string name="戻る">戻る</string>
+</resources>

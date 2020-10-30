@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "jp.wings.nikkeibp.quizapp",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 5,
+      "versionName": "1.2",
+      "enabled": true,
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

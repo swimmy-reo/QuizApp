@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.wings.nikkeibp.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Commentary"></activity>
+        <activity android:name=".TechnologyStart" />
+        <activity android:name=".ComputerSystem" />
+        <activity android:name=".BasicTheory" />
+        <activity android:name=".ServiceManagement" />
+        <activity android:name=".ProjectManagement" />
+        <activity android:name=".DevelopmentTech" />
+        <activity android:name=".SystemStrategy" />
+        <activity android:name=".Title1Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TechnologyLast" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".Title2Activity" />
+        <activity android:name=".BusinessActivity" />
+        <activity android:name=".ManagementResources" />
+    </application>
+
+</manifest>

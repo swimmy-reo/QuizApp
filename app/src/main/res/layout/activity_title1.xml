@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Title1Activity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#66FF99">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5文字FEへようこそ"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:background="#66FF99"
+        android:text="五文字FEとは"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="comment"/>
+
+    <Button
+        android:id="@+id/businessandlegal"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="企業と法務編"
+        android:textSize="15sp"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/management"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:text="経営戦略編"
+        android:textSize="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/systemStrategy"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:text="システム戦略編"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/developTech"
+        android:layout_width="304sp"
+        android:layout_height="wrap_content"
+        android:text="開発技術編"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/projectManagement"
+        android:layout_width="304sp"
+        android:layout_height="wrap_content"
+        android:text="プロジェクトマネジメント"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background"/>
+
+
+    <Button
+        android:id="@+id/serviceManagement"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:text="サービスマネジメント"
+        android:textSize="15sp"
+        android:onClick="checkAnswer"
+        android:background="@drawable/button_background"/>
+
+    <Button
+    android:id="@+id/nextpage"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="▶\n次へ"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>
